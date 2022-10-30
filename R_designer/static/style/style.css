@@ -1,0 +1,309 @@
+html {
+    font-family: 'Coco Gothic';
+    src: local('Coco Gothic Light'), local('Coco-Gothic-Light'),
+        url('CocoGothic-Light.woff2') format('woff2'),
+        url('CocoGothic-Light.woff') format('woff'),
+        url('CocoGothic-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 200;
+    color: #000;
+}
+
+body {
+    font-family: 'Coco Gothic';
+    src: local('Coco Gothic Light'), local('Coco-Gothic-Light'),
+        url('CocoGothic-Light.woff2') format('woff2'),
+        url('CocoGothic-Light.woff') format('woff'),
+        url('CocoGothic-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 200;
+    color: #000;
+    background-color: #fff;
+    min-width: 320px;
+    background-color: #77805c;
+    opacity: 0;
+    animation: ani 2.5s forwards;
+
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 50px 0;
+}
+
+a {
+    color: #111;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #9BBE27;
+}
+
+/* Header */
+.navbar-light .navbar-nav .nav-link {
+    height: 800px;
+    font-weight: 500px;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.nav-link-phone {
+    color: rgba(0,0,0,.5);
+}
+.nav_back {
+
+    background-image:url("back878nav.png");
+    height: 10vh;
+
+}
+
+.top-menu li a::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: #111;
+    height: 1px;
+    transition: all .5s;
+    transform: scale(0);
+}
+
+.top-menu li a:hover::after {
+    transform: scale(1);
+}
+/* Header */
+
+/* Home */
+.back-col {
+    background-color: #9a9e93;
+}
+
+.niz {
+  align-self: flex-end
+}
+
+.back-col-otz{
+     background-color: #9a9e93;
+}
+
+
+/* Home */
+
+
+/* Photos */
+
+.card {
+  height: 800px;
+  width: 100%;
+  position: relative;
+  border-radius: 0px;
+  border: 0px;
+  margin-bottom: 0px;
+}
+
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index:2;
+  background: white;
+  opacity: 1;
+  padding: 1px;
+}
+.card-link:hover{
+  opacity: 0.8;
+}
+.features img {
+  width: 100px;
+}
+.features h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.features p {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+
+
+@keyframes ani {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+
+
+.content {
+  padding: 7rem 0; }
+
+
+.bg-left-half {
+  position: relative; }
+  .bg-left-half:before {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    z-index: -1;
+    content: "";
+    left: 0;
+    top: 0;
+    background-color: #f8f9fa; }
+
+.media-29101 img {
+  margin-bottom: 20px; }
+
+.media-29101 h3 {
+  font-size: 18px;
+  font-weight: 900 !important; }
+  .media-29101 h3 a {
+    color: #6c757d; }
+
+.owl-2-style .owl-nav {
+  display: none;}
+
+.owl-2-style .owl-dots {
+  text-align: center;
+  position: relative;
+  bottom: -30px; }
+  .owl-2-style .owl-dots .owl-dot {
+    display: inline-block; }
+    .owl-2-style .owl-dots .owl-dot span {
+      display: inline-block;
+      width: 0px;
+      height: 0px;
+      border-radius: 0px;
+      background: #cccccc;
+      -webkit-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+      -o-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+      transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+      margin: 3px; }
+    .owl-2-style .owl-dots .owl-dot.active span {
+      background: #007bff; }
+    .owl-2-style .owl-dots .owl-dot:active, .owl-2-style .owl-dots .owl-dot:focus {
+      outline: none; }
+
+
+.vertical-text {
+ transform: rotate(270deg);
+ margin-top: 380px;
+ left: -100px;
+ color: #FFFFFF;
+}
+
+.backg-img {
+  /* Используемое изображение */
+  background-image:url("../back878.jpg");
+  height: auto;
+  width: auto;
+
+  /* Центр и масштаб изображения хорошо */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Необходимые для позиционирования навигации */
+  position: relative;
+}
+
+/* Положение контейнера навигации внутри изображения */nav
+.container_na {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+.logo-cover {
+ background-image:url("../logo.jpg");
+ background-position: top;
+ height: 300px;
+ width: 300px;
+}
+
+.titl{
+    position: absolute;
+	top: 100;
+	bottom: 0;
+	left: 0;
+	right: 2;
+	margin-left: 50px;
+    color: #FFFFFF;
+    text-shadow: -5px 0 3px #000;
+}
+
+
+@font-face {
+    font-family: 'Coco Gothic';
+    src: local('Coco Gothic Light'), local('Coco-Gothic-Light'),
+        url('CocoGothic-Light.woff2') format('woff2'),
+        url('CocoGothic-Light.woff') format('woff'),
+        url('CocoGothic-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+
+.fon2 {
+  background-image:url("../fon2.jpg");
+  height: 960px;
+  width: auto;
+
+  /* Центр и масштаб изображения хорошо */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Необходимые для позиционирования навигации */
+  position: relative;
+}
+
+.green-back{
+    background-image:url("../green-back.jpg");
+}
+
+
+.logotip {
+    height: 120px;
+    width: 120px;
+}
+
+.marg {
+    margin: 50px;
+}
+
+.etap {
+  background-image:url("../Etap.jpg");
+  height: 950px;
+  width: auto;
+
+  /* Центр и масштаб изображения хорошо */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+  /* Необходимые для позиционирования навигации */
+  position: relative;
+}
+
+.etap2 {
+  background-image:url("../Etap2.jpg");
+  height: 860px;
+  width: 400px;
+
+  /* Центр и масштаб изображения хорошо */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Необходимые для позиционирования навигации */
+  position: relative;
+}

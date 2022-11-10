@@ -3,7 +3,7 @@ import telebot
 
 
 token = ''
-my_id = 4432324
+my_id = 
 
 token = ''
 my_id = 

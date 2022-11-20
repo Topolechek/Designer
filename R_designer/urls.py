@@ -25,7 +25,6 @@ urlpatterns = [
     path('', views.home, name='home'),
     path('feedback/', include('feedback.urls')),
     path('comment/', include('comment.urls')),
-
 ]
 
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
